@@ -115,6 +115,20 @@ const repairRows = ref<Repair[]>([
     costoEstimado: 35000,
     fechaEntrega: '2023-10-06',
   },
+  {
+    id: 8,
+    modelo: 'Motorola G7',
+    estado: 'Pendiente',
+    fecha: '2023-10-03',
+    descripcion: 'Diagnóstico en proceso para falla de cámara.',
+    nombreCliente: 'Joel Martínez',
+    telefono: '+56 9 1234 5678',
+    notaDetalles: 'Cliente solicita revisión urgente antes del viernes.',
+    tecnicoAsignado: 'Carlos López',
+    tipoServicio: 'Reparación de hardware',
+    costoEstimado: 35000,
+    fechaEntrega: '2023-10-06',
+  },
 ]);
 
 interface Column {
