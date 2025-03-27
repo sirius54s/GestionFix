@@ -34,7 +34,7 @@ function handleFuncionClick(funcion: string) {
   } else if (modalMap[funcion]) {
     modalStore.openModal(modalMap[funcion]);
   } else {
-    console.log(`Acción ejecutada: ${funcion}`);
+    console.log(`Acción ejecutada q: ${funcion}`);
   }
 }
 </script>
